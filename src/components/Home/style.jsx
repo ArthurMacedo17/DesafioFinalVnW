@@ -51,7 +51,7 @@ flex-direction: column;
 }
 
 .copos1x{
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-right: 15vw;
 
     .laranja,

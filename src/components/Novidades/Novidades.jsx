@@ -1,4 +1,5 @@
 import {SectionStyle} from "./style"
+import imgNovidades from "../../assets/images/fotoNovidade.png"
 
 export default function Novidades() {
     return(
@@ -11,7 +12,7 @@ export default function Novidades() {
             <button className="buttonNovidade">Saiba mais</button>
             </div>
             <div>
-                <img src="src\assets\images\fotoNovidade.png" alt="" />
+                <img src={imgNovidades} alt="" />
             </div>
         </SectionStyle>
         

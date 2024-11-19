@@ -1,11 +1,12 @@
 import {SectionStyle } from "./style"
+import imgSobre from "../../assets/images/logosobre.png"
 
 export default function Sobre() {
     return (
         <SectionStyle>
             <div>
                 <img className = "imgSobre"
-                src="src\assets\images\FotoSobre.png" alt="" />
+                src={imgSobre} alt="" />
             </div>
             
             <div
